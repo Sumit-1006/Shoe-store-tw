@@ -1,3 +1,5 @@
+import Nav from './components/Nav'; 
+
 import{
   Hero,
   PopularProduct,
@@ -9,17 +11,17 @@ import{
   Footer
 } from './sections/Index';
 
-import Nav from './components/Nav'
+
 
 const App= () =>(
   <main className="relative">
     <Nav />
-    <section className="x1:padding-1 wide:padding-r padding-b">
-      Hero
+    <section className="xl:padding-l wide:padding-r padding-b">
+      <Hero />
 
     </section>
     <section className="padding">
-      PopularProduct
+      <PopularProduct />
     </section>
     <section className="padding">
       SuperQuality
